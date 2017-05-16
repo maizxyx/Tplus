@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tplus</string>
+    <string-array name="week">
+        <item>Chủ nhật</item>
+        <item>Thứ 2</item>
+        <item>Thứ 3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+    </string-array>
+</resources>

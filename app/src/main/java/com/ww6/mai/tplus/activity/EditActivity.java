@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.ww6.mai.tplus.R;
+import com.ww6.mai.tplus.SmsController;
 import com.ww6.mai.tplus.util.Utils;
 
 /**
@@ -59,7 +60,7 @@ public class EditActivity extends AppCompatActivity {
         btSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Utils.sendMessage(EditActivity.this, sms+"<"+etMsg.getText()+">",shortcode);
+                SmsController.getInstance().sendMessage(EditActivity.this, sms+"<"+etMsg.getText()+">",shortcode);
             }
         });
     }

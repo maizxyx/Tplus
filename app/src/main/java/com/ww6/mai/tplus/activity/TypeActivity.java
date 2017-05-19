@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ww6.mai.tplus.R;
+import com.ww6.mai.tplus.SmsController;
 import com.ww6.mai.tplus.model.TplusEntity;
 import com.ww6.mai.tplus.util.Utils;
 
@@ -86,7 +87,7 @@ public class TypeActivity extends BaseActivity implements AdapterView.OnItemClic
         String type = mTypeTplus.get(position).getType();
         if(price==null||price.equals("")||project.equals("Xổ số")||project.equals("Thống kê xổ số")){
             if(edit == null||edit.equals("")) {
-                Utils.sendMessage(mContext, mTypeTplus.get(position).getSms(), mTypeTplus.get(position).getShortcode());
+                SmsController.getInstance().sendMessage(mContext,mTypeTplus.get(position).getSms(), mTypeTplus.get(position).getShortcode());
             }else{
                 Intent intent = new Intent(mContext, EditActivity.class);
                 intent.putExtra("project", project);

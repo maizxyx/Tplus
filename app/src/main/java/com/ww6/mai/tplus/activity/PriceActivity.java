@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ww6.mai.tplus.R;
+import com.ww6.mai.tplus.SmsController;
 import com.ww6.mai.tplus.model.TplusEntity;
 import com.ww6.mai.tplus.util.Utils;
 
@@ -73,7 +74,7 @@ public class PriceActivity extends BaseActivity implements AdapterView.OnItemCli
         String sms = mPriceTplus.get(position).getSms();
         String shortcode = mPriceTplus.get(position).getShortcode();
         if(edit == null||edit.equals("")) {
-            Utils.sendMessage(mContext, mPriceTplus.get(position).getSms(), mPriceTplus.get(position).getShortcode());
+            SmsController.getInstance().sendMessage(mContext, mPriceTplus.get(position).getSms(), mPriceTplus.get(position).getShortcode());
         }else{
             Intent intent = new Intent(PriceActivity.this, EditActivity.class);
             intent.putExtra("edit",edit );

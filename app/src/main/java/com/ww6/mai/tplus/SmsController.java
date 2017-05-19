@@ -55,7 +55,7 @@ public class SmsController {
                                 context.sendBroadcast(new Intent(""));
                             }
                         })
-                //.setNegativeButton(android.R.string.cancel, null)
+                .setNegativeButton(android.R.string.cancel, null)
                 .create();
         //dialog.setCanceledOnTouchOutside(false);
         sendDialog.show();

@@ -102,7 +102,7 @@ INSERT INTO "main"."TPLUS" VALUES (98, 3, ' Bóng đá', 'Kết quả bóng đá
 INSERT INTO "main"."TPLUS" VALUES (99, 3, ' Bóng đá', 'Kết quả bóng đá', 'Euro (3000đ/1lần)', null, 'GIBDKQ ER', 8357);
 INSERT INTO "main"."TPLUS" VALUES (100, 3, ' Bóng đá', 'Kết quả bóng đá', 'Vleague (3000đ/1lần)', null, 'GIBDKQ VL', 8357);
 INSERT INTO "main"."TPLUS" VALUES (101, 3, ' Bóng đá', 'Kết quả trực tiếp', 'Premier League (5000đ/1lần)', null, 'GIKQTT ANH', 8557);
-INSERT INTO "main"."TPLUS" VALUES (102, 3, ' Bóng đá', 'Kết quả trực tiếp', 'SERIA – VĐQG Italia', null, 'GIKQTT Y', 8557);
+INSERT INTO "main"."TPLUS" VALUES (102, 3, ' Bóng đá', 'Kết quả trực tiếp', 'SERIA – VĐQG Italia (3000đ/1lần)', null, 'GIKQTT Y', 8557);
 INSERT INTO "main"."TPLUS" VALUES (103, 3, ' Bóng đá', 'Kết quả trực tiếp', 'La Liga- VĐQG Tây Ban Nha (5000đ/1lần)', null, 'GIKQTT TBN', 8557);
 INSERT INTO "main"."TPLUS" VALUES (104, 3, ' Bóng đá', 'Kết quả trực tiếp', 'Bundes Liga- VĐQG Đức (5000đ/1lần)', null, 'GIKQTT DUC', 8557);
 INSERT INTO "main"."TPLUS" VALUES (105, 3, ' Bóng đá', 'Kết quả trực tiếp', 'Ligue1- VĐQG Pháp (5000đ/1lần)', null, 'GIKQTT PHAP', 8557);
@@ -184,10 +184,10 @@ INSERT INTO "main"."TPLUS" VALUES (180, 4, 'Giới tính', 'Chuyện phòng the'
 INSERT INTO "main"."TPLUS" VALUES (181, 4, 'Giới tính', 'Chuyện phòng the', 'Dạo đầu hoàn hảo khi yêu (5000đ/1lần)', null, 'GIGTPT KDD', 8557);
 INSERT INTO "main"."TPLUS" VALUES (182, 4, 'Giới tính', 'Chuyện phòng the', 'Những thắc mắc khi yêu (5000đ/1lần)', null, 'GIGTPT TM', 8557);
 INSERT INTO "main"."TPLUS" VALUES (183, 4, 'Giới tính', 'Chuyện phòng the', 'Để yêu thật gợi tình (5000đ/1lần)', null, 'GIGTPT YGT', 8557);
-INSERT INTO "main"."TPLUS" VALUES (184, 5, 'Bói vu', 'Giải mã số điện thoại(5000đ/lần)', null, 'Nhập SĐT', 'GIBV SDT ', 8557);
-INSERT INTO "main"."TPLUS" VALUES (185, 5, 'Bói vu', 'Bói kiếp trước(5000đ/lần)', null, 'Nhập ngày sinh', 'GIBV KT ', 8557);
-INSERT INTO "main"."TPLUS" VALUES (186, 5, 'Bói vu', 'Bói ngày sinh(5000đ/lần)', null, 'Nhập ngày sinh', 'GIBV NS ', 8557);
-INSERT INTO "main"."TPLUS" VALUES (187, 5, 'Bói vu', 'Bói Tên(5000đ/lần)', null, 'Nhập Tên', 'GIBV BT ', 8557);
+INSERT INTO "main"."TPLUS" VALUES (184, 5, 'Bói vui', 'Giải mã số điện thoại(5000đ/lần)', null, 'Nhập SĐT', 'GIBV SDT ', 8557);
+INSERT INTO "main"."TPLUS" VALUES (185, 5, 'Bói vui', 'Bói kiếp trước(5000đ/lần)', null, 'Nhập ngày sinh', 'GIBV KT ', 8557);
+INSERT INTO "main"."TPLUS" VALUES (186, 5, 'Bói vui', 'Bói ngày sinh(5000đ/lần)', null, 'Nhập ngày sinh', 'GIBV NS ', 8557);
+INSERT INTO "main"."TPLUS" VALUES (187, 5, 'Bói vui', 'Bói Tên(5000đ/lần)', null, 'Nhập Tên', 'GIBV BT ', 8557);
 INSERT INTO "main"."TPLUS" VALUES (188, 6, 'Tử vi', 'Tử vi tháng (5000đ/lần)', null, 'Nhập năm sinh và giới tính', 'GITV T ', 8557);
 INSERT INTO "main"."TPLUS" VALUES (189, 6, 'Tử vi', 'Tử vi năm (5000đ/lần)', null, 'Nhập năm sinh và giới tính', 'GITV N ', 8557);
 INSERT INTO "main"."TPLUS" VALUES (190, 7, 'Vạn sự', 'Lịch Vạn sự (2.000đ/lần)', null, 'Nhập ngày tháng năm xem', 'GIVS LI ', 8257);
@@ -229,9 +229,9 @@ INSERT INTO "main"."TPLUS" VALUES (225, 10, 'Y tế', 'Bài thuốc dân gian', 
 INSERT INTO "main"."TPLUS" VALUES (226, 11, 'Giải trí', 'Truyện cười (3000đ/lần)', null, null, 'GIGT TC', 8357);
 INSERT INTO "main"."TPLUS" VALUES (227, 11, 'Giải trí', 'Chuyện lạ bốn phương (3000đ/lần)', null, null, 'GIGT TL', 8357);
 INSERT INTO "main"."TPLUS" VALUES (228, 11, 'Giải trí', 'Danh ngôn (2000đ/lần)', null, null, 'GIGT DN', 8257);
-INSERT INTO "main"."TPLUS" VALUES (229, 12, 'CON GIá', '11 Thần số (3000đ/lần)', null, 'Nhập ngày tháng năm sinh', 'GITS ', 8357);
-INSERT INTO "main"."TPLUS" VALUES (230, 12, 'CON GIá', 'Nhóm máu  (3000đ/lần)', null, 'Nhập nhóm máu', 'GINM ', 8357);
-INSERT INTO "main"."TPLUS" VALUES (231, 12, 'CON GIá', 'Sao hạn  (5000đ/lần)', null, 'Nhập ngày tháng năm sinhNhập giới tính', 'GISH ', 8557);
+INSERT INTO "main"."TPLUS" VALUES (229, 12, 'CON GIÁP', '11 Thần số (3000đ/lần)', null, 'Nhập ngày tháng năm sinh', 'GITS ', 8357);
+INSERT INTO "main"."TPLUS" VALUES (230, 12, 'CON GIÁP', 'Nhóm máu  (3000đ/lần)', null, 'Nhập nhóm máu', 'GINM ', 8357);
+INSERT INTO "main"."TPLUS" VALUES (231, 12, 'CON GIÁP', 'Sao hạn  (5000đ/lần)', null, 'Nhập ngày tháng năm sinhNhập giới tính', 'GISH ', 8557);
 INSERT INTO "main"."TPLUS" VALUES (232, 13, ' CUNG SAO', '12 Chòm sao  (5000đ/lần)', null, 'Nhập ngày tháng sinh', 'GICS ', 8557);
 INSERT INTO "main"."TPLUS" VALUES (233, 13, ' CUNG SAO', 'Công việc (3000đ/lần)', null, 'Nhập ngày tháng sinh', 'GICV ', 8357);
 INSERT INTO "main"."TPLUS" VALUES (234, 13, ' CUNG SAO', 'Tình yêu (3000đ/lần)', null, 'Nhập ngày tháng sinh', 'GITY ', 8357);
